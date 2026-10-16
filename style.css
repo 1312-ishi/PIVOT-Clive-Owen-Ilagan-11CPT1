@@ -270,3 +270,106 @@ footer p {
 footer small {
     font-size: 11px;
 }
+
+
+@media (max-width: 700px) {
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+        padding: 12px;
+    }
+
+    .nav-links {
+        gap: 14px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-right: 0;
+    }
+
+    main {
+        width: 94%;
+    }
+
+    .hero {
+        padding: 30px 18px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 17px;
+        line-height: 1.5;
+    }
+
+    .learn-section {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 18px;
+    }
+
+    .learn-image {
+        width: 100%;
+        height: 220px;
+    }
+
+    .learn-content {
+        padding: 10px 5px;
+    }
+
+    .learn-content h2 {
+        font-size: 28px;
+    }
+
+    .learn-content p {
+        font-size: 17px;
+        line-height: 1.6;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .card {
+        min-height: auto;
+        padding: 22px;
+    }
+
+    .card h2 {
+        font-size: 27px;
+    }
+
+    .card p {
+        font-size: 17px;
+        line-height: 1.6;
+    }
+
+    .explore {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 18px;
+        padding: 25px 20px;
+    }
+
+    .explore-icon {
+        min-width: 75px;
+        width: 75px;
+        height: 75px;
+    }
+
+    .explore-content {
+        width: 100%;
+    }
+
+    .explore-content h2 {
+        font-size: 28px;
+    }
+
+    .explore-content p {
+        font-size: 17px;
+        line-height: 1.6;
+    }
+}
